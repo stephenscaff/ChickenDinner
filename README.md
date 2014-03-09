@@ -23,14 +23,14 @@ First, add your image tag with a unique class. You can leave the src blank or ad
  
 ```
 
-Now just initialize the badboy with your class, include the full path to your images, give 'er a common alt name, and list the images to swap, like so:
+Now just initialize the badboy with your class, include the path to your images (defualt path is 'images/'), give 'er a common alt name, and list the images to swap, like so:
 
 ```javascript
  $('.js-chickendinner').chickenDinner({
       path: 'http://your-boss-site.com/images/',
       altTag: 'Banner Image',
       fadeInTime:2000,
-      TheImages: ['banner2.png', 'banner3.png', 'banner4.png', 'banner5.png']
+      TheImages: ['ban1.png', 'ban2.png', 'ban3.png', 'ban4.png']
   });
   
 ```
