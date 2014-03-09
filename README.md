@@ -73,3 +73,6 @@ An option with a numeric value (milliseconds) that Fades your images in all sexy
 | altTag        |  Global img alt                   | 'Banner Image'
 | fadeInTime    | Milliseconds fade in time         | 2000
 
+
+## Check it 
+Peep ChickenDinner in action [Here→](http://chickendinner.sosweetcreative.com/), 
