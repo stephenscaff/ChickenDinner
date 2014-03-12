@@ -11,14 +11,14 @@ Easy peasy. You can either apply it directly to a img tag, or as a css backgroun
 
 
 ### On an img tag
-First, add your image tag with a unique class. You can leave the src blank or add a fallback - a sexy ass fadeIn animation prevents the image from popping through before the script fires. Either way, to maintain the parent div's height, might wanna rock an intrinsic ratio move or fade in animation on the body tag.
+First, add your image tag with a unique class. Pereferably, you'd leave the src blank (href="#") or add a fallback for the no js, "but that won't validate" punks - a sexy ass fadeIn animation prevents the image from popping through before the script fires (usually). Either way, to maintain the parent div's height, might wanna rock an intrinsic ratio move or fade in animation on the body tag.
 
 
 ```html
  /*Blank src*/
  <img class="js-chickendinner" src="#" alt="">
  
- /*With fallback*/
+ /*With fallback for no-js losers*/
  <img class="js-chickendinner" src="images/banner1.png" alt="">
  
 ```
