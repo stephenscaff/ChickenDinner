@@ -1,16 +1,11 @@
-/*global jQuery */
-
 /*!
 * ChickenDinner 1.0
 * Copyright 2014, Stephen Scaff - http://sosweetcreative.com 
 * Released under the WTFPL license - http://sam.zoy.org/wtfpl/
 *
-*
 * USEAGE 
-* 
 * For img tags
 * =====================
-
 * $('.js-chickendinner').chickenDinner({
 *    path: 'images/',
 *    fadeInTime:2000,
@@ -19,14 +14,12 @@
 *
 * For Background Images
 * =======================
-*
 * $('.js-chickendinner-bg').chickenDinner({
 *    path: 'images/',
 *    fadeInTime:2000,
 *    cssBG: 'true',
 *    TheImages: ['banner2.png', 'banner3.png','banner4.png','banner5.png','banner1.png']
 * });
-*
 */
 
 (function($){
