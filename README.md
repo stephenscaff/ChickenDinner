@@ -53,7 +53,7 @@ Initialize it, but this time add the option cssBG with the value of 'True'. Chic
    $('.js-chickendinner-bg').chickenDinner({
         path: 'images/',
         fadeInTime:2000,
-        cssBg:true,
+        cssBG:true,
         TheImages: ['banner2.png', 'banner3.png', 'banner4.png', 'banner5.png']
     });
 
